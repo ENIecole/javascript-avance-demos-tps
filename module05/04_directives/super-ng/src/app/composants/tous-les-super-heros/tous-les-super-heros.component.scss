@@ -1,0 +1,11 @@
+div {
+  @apply flex justify-center;
+}
+
+button {
+  @apply m-2 p-4 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-md flex justify-center;
+}
+
+.supers {
+  @apply flex flex-wrap gap-1 justify-center;
+}

@@ -1,0 +1,9 @@
+<div>
+  <button (click)="ajoutSupers()">Chargement</button>
+</div>
+
+<div class="supers">
+  <a *ngFor="let chaque_super of supers" [routerLink]="['/un-seul-super-hero', chaque_super.id]">
+    <img [src]="chaque_super.image">
+  </a>
+</div>
