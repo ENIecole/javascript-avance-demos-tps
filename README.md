@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to javascript-avance-demos-tps 👋</h1>
+<h1 align="center">javascript-avance-demos-tps 👋</h1>
 <p>
   <a href="https://github.com/ENIecole/javascript-avance" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
