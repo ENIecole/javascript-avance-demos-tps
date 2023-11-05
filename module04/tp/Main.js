@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Acheteur_1 = require("./Acheteur");
+var Auteur_1 = require("./Auteur");
+var Sculpture_1 = require("./Oeuvres/Sculpture");
+var moi = new Acheteur_1.Acheteur("Caliendo", "Julien");
+var auteur = new Auteur_1.Auteur("Rodin", "Auguste");
+var penseur = new Sculpture_1.Sculpture(1904, "Le penseur", "Bronze");
+console.log(penseur.afficher());
+penseur.encherir(1000, moi);
+console.log(penseur.afficher());
